@@ -1,0 +1,173 @@
+body{
+    background:linear-gradient(to right,rgba(76, 67, 205, 0.692), rgb(71, 168, 160)); 
+}
+
+
+
+.signup{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-right: 1px;
+    margin-top: 10%;
+}
+
+
+.header{
+    text-align: center;
+}
+
+
+h1{ 
+    text-align: center; 
+    margin-bottom: 45px;
+}
+
+
+.subpart1{
+  
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 85px;
+
+}
+
+
+.subpart2{
+    padding-top: 2px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 85px;
+}
+
+
+.subpart3{
+    padding-top: 2px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 85px;
+}
+
+
+.part2{
+    margin-top: 25px;
+    text-align: center;
+}
+
+
+input{
+    padding-top: 12px;
+   padding-bottom: 12px;
+   padding-left: 12px;
+   padding-right: 85px; 
+   width: 90%;
+   font-size: 16px;
+   border: none;
+   border-radius: 3px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.con-btn{
+    align-items: center;
+    cursor: pointer;
+    background-color: #585552;
+    color: white;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 39.5%;
+    padding-right: 39.5%;
+    border-radius: 3px;
+    margin-right: 8px;
+}
+
+.con-btn:hover{
+    background-color: #42403e;
+}
+
+
+
+.para1 a{
+    text-decoration: none;
+    color: rgb(0, 153, 255);
+}
+
+
+.loginshort a{
+    text-decoration: none;
+    color: rgb(33, 29, 243);
+}
+
+.or{
+    width: 22%;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 1.5%;
+    margin-bottom: 2%;
+}
+
+
+.or::before{
+    content: "";
+    border-bottom: 1px solid #c2c8d0;
+    flex: 1 0 auto;
+    height: 0.5em;
+    margin: 0;
+    margin-right: 3%;
+}
+
+
+.or::after{
+    content: "";
+    border-bottom: 1px solid #c2c8d0;
+    flex: 1 0 auto;
+    height: 0.5em;
+    margin: 0;
+    margin-left: 3%;
+}
+
+
+
+.google a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.google-btn{
+    /* background-color: white; */
+    /* background-color: rgb(97, 132, 202);  */
+    background-color: rgb(70, 115, 204);
+    border: 1px solid black;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 105px;
+    padding-right: 105px;
+    border-radius: 3px;
+    border: none;
+    margin-right: 5px;
+}
+
+
+.google-btn:hover{
+    /* background-color: rgb(170, 167, 167); */
+    background-color: rgb(86, 123, 196); 
+}
+
+.c-google{
+    padding-bottom: 2px;
+}
+
+
+

@@ -1,0 +1,51 @@
+.maindiv{
+    width: 15%;
+}
+
+
+.signin{
+    background-color: #585552;
+    border: none;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+
+.signin:hover{
+    background-color: #42403e;
+}
+
+.signin a{
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    letter-spacing: .5px;
+}
+
+
+.signup{
+    border: none;
+    background-color: white;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+.signup:hover{
+    background-color: rgb(201, 200, 200);
+}
+
+.signup a{
+    font-size: 14px;
+    font-weight: 700;
+    color: #161513;
+    text-decoration: none;
+    letter-spacing: .5px;
+}
